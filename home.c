@@ -8,7 +8,6 @@ int main()
   char top[50] = { 0 };
   int count[1000] = { 0 };
 
-  printf("팔린 책의 권 수 : ");  
   scanf("%d", &n);
   
   for(i = 0; i < n; i++){
@@ -38,6 +37,6 @@ int main()
     }
   }
 
-  printf("가장 많이 팔린 책 이름 : %s", book[num]);
+  printf("%s", book[num]);
   return 0;
 }
